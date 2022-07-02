@@ -1,4 +1,4 @@
-# taste fresh - fresh 맛보기
+# 🍋 taste fresh
 
 ### Usage
 
