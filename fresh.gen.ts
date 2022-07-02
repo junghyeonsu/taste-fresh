@@ -4,20 +4,20 @@
 
 import * as $0 from "./routes/[name].tsx";
 import * as $1 from "./routes/api/joke.ts";
-import * as $2 from "./routes/countdonw.tsx";
+import * as $2 from "./routes/countdown.tsx";
 import * as $3 from "./routes/index.tsx";
-import * as $$0 from "./islands/CountDown.tsx";
+import * as $$0 from "./islands/Countdown.tsx";
 import * as $$1 from "./islands/Counter.tsx";
 
 const manifest = {
   routes: {
     "./routes/[name].tsx": $0,
     "./routes/api/joke.ts": $1,
-    "./routes/countdonw.tsx": $2,
+    "./routes/countdown.tsx": $2,
     "./routes/index.tsx": $3,
   },
   islands: {
-    "./islands/CountDown.tsx": $$0,
+    "./islands/Countdown.tsx": $$0,
     "./islands/Counter.tsx": $$1,
   },
   baseUrl: import.meta.url,
